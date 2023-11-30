@@ -43,25 +43,39 @@ ul {
     gap: 64px;
     padding: 64px 124px 124px 124px;
 }
-.button{
+.button,
+.secondary-button
+{
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     padding: 8px 16px;
-    background-color: rgb(63, 63, 233) ;
     border-radius: 8px;
     width: 80px;
     text-align: center;
 }
-p{
-    color: aliceblue;
-    font-size: 16px;
+.secondary-button{
+    color: white;
+    background-color: rgb(63, 63, 233);
+    border: 2px solid #ffffff;
+}
+.button {
+    color: white;
+    background-color: rgb(63, 63, 233);
+}
+
+.text1 {
+    color: rgb(213, 218, 222);
+    font-weight: 400;
+    font-size: 20px;
+    width: 500px;
+    padding: 16px 0px;
 }
 .banner-left{
    flex: 1;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: flex-start;
 }
 h1{
     font-size: 56px;
@@ -82,7 +96,7 @@ h1{
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: 32px;
+    padding: 32px 32px 48px 32px;
 }
 .carousel{
     display: flex;
@@ -111,10 +125,76 @@ h1{
  width: 200px;
  color: #1F2937;
  font-size: 16px;
+ text-align: center;
 }
 
 h2{
  color: #1F2937;
  font-weight: 600;
  font-size: 32px;
+}
+
+.quote-text{
+    font-size: 32px;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(44, 44, 44);
+    text-align: left;
+}
+
+.author{
+ font-size: 24px;
+ font-weight: 700;
+ color: rgb(44, 44, 44);
+ text-align: right;
+ padding: 0px 48px
+}
+
+.quote{
+    padding: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+    width: 1024px;
+    
+}
+.quote-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(161, 161, 161);
+}
+.cta-card{
+    background-color: rgb(63, 63, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px ;
+    padding: 32px 64px;
+    border-radius: 8px;
+}
+h6{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+}
+.cta-text{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+}
+.cta-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cta-section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
 }
