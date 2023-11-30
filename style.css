@@ -1,7 +1,7 @@
 body{
     background: #1F2937;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0px 124px;
+    margin: 0px;
 }
 
 nav{
@@ -10,6 +10,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 64px 124px;
 }
 
 a{
@@ -40,6 +41,7 @@ ul {
     padding: 48px 0px;
     display: flex;
     gap: 64px;
+    padding: 64px 124px;
 }
 .button{
     font-weight: 600;
@@ -73,4 +75,35 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.carousel{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 248px;
+    width: 100px;
+}
+.rectangle{
+    width: 100px;
+    height: 100px;
+    color: white;
+    border: 4px solid #04335a;
+    border-radius: 2px;
+   background-color: #ffffff;
+}
+.card-description{
+ width: 100px;
+ color: #1F2937;
+ font-size: 16px;
 }
